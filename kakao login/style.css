@@ -1,0 +1,118 @@
+section {
+    justify-content: center;
+    margin-top: 100px;
+    display: flex;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.span {
+    font-size: 25px;
+    color: black;
+}
+p {
+    color: grey;
+}
+.advertisement > p{
+    margin: 0;
+}
+
+.advertisement .adver {
+    width: 600px;
+    height: 350px;
+}
+
+.login {
+    margin-bottom: 500px;
+    width: 480px;
+    height: 550px;
+    border: 1px solid lightgrey;
+}
+
+.inlogin {
+    padding: 50px;
+    justify-content: center;
+}
+
+.char {
+    font-size: 35px;
+}
+
+input {
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid darkgrey;
+    width: 330px;
+}
+
+input:hover {
+    cursor: pointer;
+}
+
+input:focus {
+    border-bottom: 2px solid lightgrey;
+    border-bottom-color: #000000;
+}
+
+.inlogin .id {
+    padding-top: 20px;
+}
+
+.inlogin .submit{
+    border-radius: 4%;
+    height: 50px;
+    width: 350px;
+    border: none;
+    background: #FDD835;
+}
+
+.inlogin .submit:focus {
+    outline: none;
+}
+
+.and {
+    color: lightgrey;
+    font-size: 12px;
+}
+
+.inlogin .QRcode {
+    border-radius: 3%;
+    background: #EEEEEE;
+    outline: none;
+    border: none;
+    width: 350px;
+    height: 50px;
+    border: none;
+}
+
+.inlogin .QRcode:hover {
+    background: #E0E0E0;
+}
+
+
+.bottom_list {
+    padding: 2px;
+    font-size: 13px;
+    color: #616161;
+    list-style: none;
+    display: flex;
+
+}
+
+.bottom_list .join {
+    padding-right: 145px;
+}
+
+.bottom_list .account {
+    padding-right: 5px;
+    border-right: 1px solid lightgrey;
+}
+
+.bottom_list .pwd {
+    padding-left: 5px;
+}
