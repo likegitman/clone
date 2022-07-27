@@ -117,6 +117,8 @@ input:focus {
     padding-left: 8px;
 }
 
+// 창의 크기가 최소 1023px가 된다면 
+로그인 창이 화면의 한가운데로 오게 만듦 
 @media screen and (max-width:1023px) {
     .advertisement {
         display: none;
